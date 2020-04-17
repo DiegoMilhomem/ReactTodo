@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.App-header {
+  width: 100%;
+  padding: 10px;
+  background-color: #8ED1FC;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Todo-input {
+  background: #D9D9D9;
+  border: black;
+  font-size: 20px;
+  color: rgb(14, 13, 13);
+  margin: 10px;
+  outline: black;
+  align-items: center;
+}
+
+.Todo-button {
+  background: rgb(7, 56, 3);
+  padding: 20px;
+  border: black;
+  font-family: Arial;
+}
+
+.Item-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+  background: white;
+}
+
+.Item-field {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.Array-preview {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  background-color: #8ED1FC;
+  color: black;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
